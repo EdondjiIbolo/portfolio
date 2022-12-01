@@ -35,7 +35,7 @@ body.dark{
 }
 .header{
     display: flex;
-    width: 100%;
+    min-width:100%;
     align-items: center;
     justify-content: space-between;
     height: 70px;
@@ -107,7 +107,14 @@ body.dark{
     display: grid;
     grid-gap: .5em;
 }
-
+@media screen and (max-width:720px){
+    .main{
+        display: grid;
+        padding: 2em;
+        grid-gap: .5em;
+        align-items: start;
+    }
+}
 
 
 @media screen and (min-width:720px){
