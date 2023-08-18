@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Portfolio</title>
+  </head>
+  <body class="dark" >
+    <header class="header">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon them" class="toggle-theme__icon">
+                <p id="toggle-text" class="toggle-theme__text">Modo Oscuro</p>
+                
+            </div>
+        </div>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img class="flags__img" src="assets/icons/es.svg" alt="">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img class="flags__img" src="assets/icons/gb.svg" alt="">
+            </div>
+        </div>
+        <div id="toogle-colors"  class="colors">
+            <div data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
+            <div data-color="hsl(150,84%,56%)" class="colors__item colors__item--green"></div>
+            <div data-color="hsl(276,84%,56%)" class="colors__item colors__item--purple"></div>
+            <div data-color="hsl(46,84%,56%)" class="colors__item colors__item--orange"></div>
+            
+        </div>
+        
+    </header>
+    <main class="main">
+        <section class="column column--left">
+<!--        profile card   -->
+            <article class="card card--profile">
+                <div class="card__image-container">
+                    <img src="assets/images/profile2.jpg" alt="">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title">Enzo Battaglia</h2>
+                    <p class="card__subtitle" data-section="profile" data-value="rol">Desarollador Front-End</p>
+                </div>
+                <div class="card__link">
+                    <a href="https://github.com/EdondjiIbolo">
+                       <i class="fa-brands fa-github icon"></i>
+                    </a>
+                    <a href="mailto:enzombul@gmail.com">
+                        <i class="fas fa-envelope icon"></i>
+                    </a>
+                </div>
+                <div class="card__body">
+                    
+                    <div class="card__link">
+                       <i class="fas fa-phone "></i>
+                        <a href="tel:+86 132 56717 532">+86 132 56717 532</a>
+                    </div>
+                   
+                    <p class="card__text" data-section="profile" data-value="description">
+                        Mas de 4 años de experiencias en el campo de la informatica. Apasionado a las nuevas tecnologias y el aprendizaje , en
+                        especial en el desarollo web y redes informaticas. <br /> Mi propósito es aprender y poder implementar mis conocimientos
+                        para el desarrollo y resolver problemas necesarios en el sector laboral y tambien tener la capacidad de poder trasladar
+                        mi pasión enseñando los conceotos de tecnologías web a todos aquellos que quieran iniciarse en este campo de forma
+                        actualizada.
+                    </p>
+                </div>
+            </article>
+            <article class="card card__experience">
+                <h2 class="experience__title">Experience</h2>
+                <div class="experience">
+                    <img src="assets/images/logo.png" alt="logo" class="experience__image">
+                    <div class="experience__info">
+                        <p class="experience__time"></p>
+                        <h3 class="experience__job" data-section="experience" data-value="first-job-title" >fornt end</h3>
+                        <p class="experience__description" data-section="experience" data-value="first-job-description">Hasta ahora trabajo como freelance y no dispongo de experiencia en empresas",
+                    </p>
+                    </div>
+                </div>
+            
+                </div>
+            </article>
+             <article class="card card--hobbies" >
+                 
+                     <h2 class="card--hobbies">Hobies</h2>
+                     <div class="card__image-container">
+                        <img src="assets/images/hobbie.jpg" alt="hobbie image">
+                     </div>
+                     <h3 class="hobbie__title" data-section="hobbies" data-value="first-hobbies-title">Hobbies</h3>
+                    <p class="card__text" data-section="hobbies" data-value="first-hobbies-description">Me apasiona el deporte (GIMNASIO) , y de vez en cuando juego al futbol, para poder ejercitar y de
+                        alguna manera socializar con los demas y escuchar musica</p>
+             </article>
+            
+        </section>
+        <section class="column column--rigth">
+            <article class="card">
+                <h2 class="card__title">Front End</h2>
+                <small>Anos de experiencia</small>
+                 <div class="skills">
+                <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">4</span>
+                </div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">React</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                </div>
+                </div>
+                
+            </article>
+            <article class="card">
+                <h2 class="card__title">Others</h2>
+                <small>Anos de experiencia</small>
+                
+                <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">5</span>
+                </div>
+                
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Photoshop</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Cisco packet tracer</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">C# Programing</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                </div>
+                
+            </article>
+            <article class="card">
+                <h2 class="card__title">Network Associate</h2>
+                <small>Anos de experiencia</small>
+                <div class="skills">
+                <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">5</span>
+                </div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">CISCO-CCNA</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    
+                </div>
+                </div>
+                
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img class="img" src="assets/images/Captura de pantalla 2023-02-11 133907.jpg" alt="project" class="card__image" " height="250px">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript</span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="first-project-title">
+                        Landing page || Portfolio</h2>
+                    <p class="card__text" data-section="projects" data-value="first-project-description">
+                        Este es un portfolio de presentacion en el cual detallo mis conocimientos ,hobbies y parte de mi experiencia en el mundo de la programacion. Gracias a la ayuda de muchos profesores y mi esfuerzo y dedicacion puedo decir que me he formado bien en mundo del desarollo web. 
+                    </p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/portfolio/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/portfolio.git" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/desktop-preview.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript</span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="second-project-title">Landing page || Challenge 1</h2>
+                    <p class="card__text" data-section="projects" data-value="second-project-description">
+                        Este es un proyecto de landing page , un challenge hecho desde cero , gracias a la pagina de Frontendmentor estoy practicando en el mundo del desarollo web. el proyecto lo he realizado en solitario </p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/web/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/web.git" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+                </article>
+                <article class="card card__project">
+                    <div class="card__image-container">
+                        <img src="assets/images/bookmark.jpg" alt="project" class="card__image">
+                    </div>
+                    <div class="project">
+                        <div class="project__tags">
+                            <span class="project_tag">HTML</span>
+                            <span class="project_tag">CSS</span>
+                            <span class="project_tag">JavaScript</span>
+                            <span class="project_tag">Responsive</span>
+                        </div>
+                        <h2 class="card__title" data-section="projects" data-value="third-project-title">Landing page || Challenge 2</h2>
+                        <p class="card__text" data-section="projects" data-value="third-project-description">
+                            Este es un proyecto de landing page , un challenge hecho desde cero , gracias a la pagina de Frontendmentor
+                            estoy practicando en el mundo del desarollo web. el proyecto lo he realizado en solitario </p>
+                
+                        <div class="buttons">
+                            <a href="https://edondjiibolo.github.io/Bookmark-Landing" class="button button-primary">DEMO</a>
+                            <a href="https://github.com/EdondjiIbolo/Bookmark-Landing" class="button button-ghost">CODE</a>
+                        </div>
+                        </div>
+                        </article>
+                        <article class="card card__project">
+                            <div class="card__image-container">
+                                <img src="assets/images/twitter.jpg" alt="project" class="card__image">
+                                </div>
+                                <div class="project">
+                                    <div class="project__tags">
+                                        <span class="project_tag">HTML</span>
+                                        <span class="project_tag">CSS</span>
+                                        <span class="project_tag">JavaScript</span>
+                                        <span class="project_tag">React</span>
+                                    </div>
+                                    <h2 class="card__title" data-section="projects" data-value="fourth-project-title">Twitter Following Card UI</h2>
+                                    <p class="card__text" data-section="projects" data-value="fourth-project-description">
+                                        Este es un proyecto de Twitter Following , un challenge hecho desde cero. Con las mismas funcionalidades que
+                                        la de la app de twitter </p>
+                                    <div class="buttons">
+                                        <a href="https://6486332dd2a28e50a54b0da2--leafy-bublanina-a69f81.netlify.app/"
+                                            class="button button-primary">DEMO</a>
+                                        <a href="https://github.com/EdondjiIbolo/twitterCard" class="button button-ghost">CODE</a>
+                                    </div>
+                                </div>
+                                </article>
+                                <article class="card card__project">
+                                    <div class="card__image-container">
+                    <img src="assets/images/ecommerce.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript </span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="fifth-project-title">Landing page || ecommerce </h2>
+                    <p class="card__text" data-section="projects" data-value="fifth-project-description">Este es un ejemplo de e-commerce product page , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero</p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/E-commerce/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/E-commerce" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+            </article>
+                    
+
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/card.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="sixth-project-title">Product preview card component </h2>
+                    <p class="card__text" data-section="projects" data-value="sixth-project-description">Este es un ejemplo de Product preview card component , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero</p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/product-preview-card/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/product-preview-card" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/flag.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript</span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="seventh-project-title">REST Countries API with color theme switcher </h2>
+                    <p class="card__text" data-section="projects" data-value="seventh-project-description">Este es un ejemplo de REST Countries API with color theme switcher , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero</p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/Api-FLAGS/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/Api-FLAGS" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/dictionary.webp" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript</span>
+                        <span class="project_tag">Responsive</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="eigth-project-title">Dictionary web app with color theme switcher </h2>
+                    <p class="card__text" data-section="projects" data-value="eigth-project-description">Este es un ejemplo de Dictionary web app with color theme switcher , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero</p>
+                    
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/DiccionarioApi/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/DiccionarioApi" class="button button-ghost">CODE</a>
+                    </div>
+                    
+                </div>
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/web-first.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">Responsive</span>
+                        <span class="project_tag">JavaScript</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="nine-project-title">News homepage </h2>
+                    <p class="card__text" data-section="projects" data-value="nine-project-description">
+                        Esta es una landing page cdedicada a la informacion y noticias. desarrollada desde cero con el objetivo de mejorar mis
+                    habilidades.
+                    </p>
+                    <div class="buttons">
+                        <a href="https://edondjiibolo.github.io/first-web/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/first-webi" class="button button-ghost">CODE</a>
+                    </div>
+                </div>
+                </article>
+                <article class="card card__project">
+                        <div class="card__image-container">
+                            <img src="assets/images/sunny.jpg" alt="project" class="card__image">
+                        </div>
+                        <div class="project">
+                            <div class="project__tags">
+                                <span class="project_tag">HTML</span>
+                                <span class="project_tag">CSS</span>
+                                <span class="project_tag">Responsive</span>
+                                <span class="project_tag">JavaScript</span>
+                            </div>
+                            <h2 class="card__title" data-section="projects" data-value="ten-project-title">Sunny Landing Page </h2>
+                            <p class="card__text" data-section="projects" data-value="ten-project-description">
+                                Esta es una Landingpage desarrollada desde cero
+                            </p>
+                    
+                            <div class="buttons">
+                                <a href="https://edondjiibolo.github.io/Sunnyside-agency/" class="button button-primary">DEMO</a>
+                                <a href="https://github.com/EdondjiIbolo/Sunnyside-agency" class="button button-ghost">CODE</a>
+                            </div>
+                    
+                        </div>
+            </article>
+                    
+            <article class="card card__project">
+                        <div class="card__image-container">
+                            <img src="assets/images/tres-raya.webp" alt="project" class="card__image">
+                        </div>
+                        <div class="project">
+                            <div class="project__tags">
+                                <span class="project_tag">HTML</span>
+                                <span class="project_tag">CSS</span>
+                                <span class="project_tag">JavaScript</span>
+                                <span class="project_tag">React</span>
+                            </div>
+                            <h2 class="card__title" data-section="projects" data-value="eleventh-project-title">Juego de Tres en Raya </h2>
+                            <p class="card__text" data-section="projects" data-value="eleventh-project-description">
+                                Este es un juego popular llamado 'Tres en raya', muy util para pasar un buen rato con tus amigos u
+                                paraentretenerse.
+                            </p>
+                    
+                            <div class="buttons">
+                                <a href="https://superlative-daifuku-2935c2.netlify.app/" class="button button-primary">DEMO</a>
+                                <a href="https://github.com/EdondjiIbolo/tic-toc-toe" class="button button-ghost">CODE</a>
+                            </div>
+                    
+                        </div>
+            </article>
+            <article class="card card__project">
+                <div class="card__image-container">
+                    <img src="assets/images/movieSearch.jpg" alt="project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project_tag">HTML</span>
+                        <span class="project_tag">CSS</span>
+                        <span class="project_tag">JavaScript</span>
+                        <span class="project_tag">React</span>
+                    </div>
+                    <h2 class="card__title" data-section="projects" data-value="twelve-project-title">Buscador de Peliculas </h2>
+                    <p class="card__text" data-section="projects" data-value="twelve-project-description">
+                        Esta es una aplicacion o una especie de buscador de peliculas en ingles realizado con react y haciendo el
+                        uso de una Api usando Fetch.
+                    </p>
+            
+                    <div class="buttons">
+                        <a href="https://boisterous-kangaroo-9e45b8.netlify.app/" class="button button-primary">DEMO</a>
+                        <a href="https://github.com/EdondjiIbolo/movieSearch" class="button button-ghost">CODE</a>
+                    </div>
+            
+                </div>
+            </article>
+
+            <article class="card card__project">
+                        <div class="card__image-container">
+                            <img src="assets/images/calculator.jpg" alt="project" class="card__image">
+                        </div>
+                        <div class="project">
+                            <div class="project__tags">
+                                <span class="project_tag">HTML</span>
+                                <span class="project_tag">CSS</span>
+                                <span class="project_tag">Responsive</span>
+                                <span class="project_tag">JavaScript</span>
+                            </div>
+                            <h2 class="card__title" data-section="projects" data-value="thirdteen-project-title">Calculator app</h2>
+                            <p class="card__text" data-section="projects" data-value="thirdteen-project-description">
+                                Esta es una aplicacion de calculadora que te permite realizar operaciones aritmeticas sencillas.
+                                que tambien consta de cambios de temas aumentando la accesibilidad y una mejor experiecia de usuario.
+                            </p>
+                    
+                            <div class="buttons">
+                                <a href="https://edondjiibolo.github.io/calculator-app/" class="button button-primary">DEMO</a>
+                                <a href="https://github.com/EdondjiIbolo/calculator-app" class="button button-ghost">CODE</a>
+                            </div>
+                    
+                        </div>
+            </article>
+            <article class="card card__project">
+                        <div class="card__image-container">
+                            <img src="assets/images/age-calculator.jpg" alt="project" class="card__image">
+                        </div>
+                        <div class="project">
+                            <div class="project__tags">
+                                <span class="project_tag">HTML</span>
+                                <span class="project_tag">CSS</span>
+                                <span class="project_tag">JavaScript</span>
+                            </div>
+                            <h2 class="card__title" data-section="projects" data-value="fourteen-project-title">Age calculator app</h2>
+                            <p class="card__text" data-section="projects" data-value="fourteen-project-description">
+                                Este es un ejemplo de calculadora , que tiene como objetivo proporcionar la edad exacta de cualquier cosa o
+                                persona.
+                                Es una aplicacion desarollada desde cero.
+                    
+                            </p>
+                    
+                            <div class="buttons">
+                                <a href="https://edondjiibolo.github.io/age-calculator-app/" class="button button-primary">DEMO</a>
+                                <a href="https://github.com/EdondjiIbolo/age-calculator-app" class="button button-ghost">CODE</a>
+                            </div>
+                    
+                        </div>
+            </article>
+                        
+            <article class="card card__project">
+                            <div class="card__image-container">
+                                <img src="assets/images/sumary.jpg" alt="project" class="card__image">
+                            </div>
+                            <div class="project">
+                                <div class="project__tags">
+                                    <span class="project_tag">HTML</span>
+                                    <span class="project_tag">CSS</span>
+                                    <span class="project_tag">Responsive</span>
+                                    <span class="project_tag">JavaScript</span>
+                                </div>
+                                <h2 class="card__title" data-section="projects" data-value="fivetten-project-title">Summary app </h2>
+                                <p class="card__text" data-section="projects" data-value="fiveteen-project-description">
+                                    Esta es una app con funcionalidad de hallar la media/verage de varios resultados. un reto que me ha ayudado
+                                    a entender muchas cosas gracias a su complejidad a la hora de hacer responsive el diseño.
+                                </p>
+                        
+                                <div class="buttons">
+                                    <a href="https://edondjiibolo.github.io/Results-summary" class="button button-primary">DEMO</a>
+                                    <a href="https://github.com/EdondjiIbolo/Results-summary" class="button button-ghost">CODE</a>
+                                </div>
+                        
+                            </div>
+            </article>
+                        
+            <article class="card card__project">
+                            <div class="card__image-container">
+                                <img src="assets/images/url.jpg" alt="project" class="card__image">
+                            </div>
+                            <div class="project">
+                                <div class="project__tags">
+                                    <span class="project_tag">HTML</span>
+                                    <span class="project_tag">CSS</span>
+                                    <span class="project_tag">Responsive</span>
+                                    <span class="project_tag">JavaScript</span>
+                                </div>
+                                <h2 class="card__title" data-section="projects" data-value="sixteen-project-title">Shortest Url Landing </h2>
+                                <p class="card__text" data-section="projects" data-value="sixteen-project-description">
+                                    Esta es una Landingpage desarrollada desde cero, con la funcionalidad de crear links aleatorios y poder
+                                    copiar al portapapeles para poder pegarlo en otro sitio.
+                                </p>
+                        
+                                <div class="buttons">
+                                    <a href="https://edondjiibolo.github.io/URL-shortening/" class="button button-primary">DEMO</a>
+                                    <a href="https://github.com/EdondjiIbolo/URL-shortening/" class="button button-ghost">CODE</a>
+                                </div>
+                        
+                            </div>
+                </article>
+
+                <article class="card card__project">
+                    <div class="card__image-container">
+                        <img src="assets/images/SHOPPING-CART.webp" alt="project" class="card__image">
+                    </div>
+                    <div class="project">
+                        <div class="project__tags">
+                            <span class="project_tag">HTML</span>
+                            <span class="project_tag">CSS</span>
+                            <span class="project_tag">Responsive</span>
+                            <span class="project_tag">React</span>
+                        </div>
+                        <h2 class="card__title" data-section="projects" data-value="seventeen-project-title">Carrito de compras </h2>
+                        <p class="card__text" data-section="projects" data-value="seventeen-project-description">
+                            Esta es una aplicación de compras que te permite buscar y adquirir productos de forma fácil y rápida. Con opciones de filtrado por categoría y precio
+                        </p>
+                
+                        <div class="buttons">
+                            <a href="https://clinquant-zuccutto-68d1d5.netlify.app/" class="button button-primary">DEMO</a>
+                            <a href="https://github.com/EdondjiIbolo/shoppingCart" class="button button-ghost">CODE</a>
+                        </div>
+                
+                    </div>
+                </article>
+
+                <article class="card card__project">
+                    <div class="card__image-container">
+                        <img src="assets/images/prueba-tecnica.jpg" alt="project" class="card__image">
+                    </div>
+                    <div class="project">
+                        <div class="project__tags">
+                            <span class="project_tag">HTML</span>
+                            <span class="project_tag">CSS</span>
+                            <span class="project_tag">Responsive</span>
+                            <span class="project_tag">React</span>
+                        </div>
+                        <h2 class="card__title" data-section="projects" data-value="eigthteen-project-title">Prueba Tecnica</h2>
+                        <p class="card__text" data-section="projects" data-value="eigthteen-project-description">
+                            Esta es una prueba tecnica , realizada por una empresa para medir el nivel prfesional Front-End de un programador. Una aplicacion de Biblioteca de libros con opcion a filtro y agregamiento a lista de lectura y con sincronizacion de pestañas en el navegador , y con filtro de paginas de libro.
+                        </p>
+                
+                        <div class="buttons">
+                            <a href="https://lustrous-tiramisu-c8f980.netlify.app/" class="button button-primary">DEMO</a>
+                            <a href="https://github.com/EdondjiIbolo/pruebas-tecnicas-main" class="button button-ghost">CODE</a>
+                        </div>
+                
+                    </div>
+                </article>
+        </section>
+    </main>
+   
+   
+   
+   
+    <script src="js/scripts.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>

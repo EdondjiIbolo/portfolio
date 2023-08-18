@@ -1,0 +1,71 @@
+{
+    "profile": {
+        "rol": "Front-End Developer",
+        "description": "More than 4 years of experiences in the field of computer science Passionate to new technologies and learning in special in web development and computer networks. My purpose is to learn and be able to implement my knowledge for development and solving necessary problems in the labor sector and also having the ability to move My passion teaching web technologies grants to all those who want to start in this field of form updated"
+    },
+    "experience": {
+        "first-job-title": "Freelance",
+        "first-job-dates": "----",
+        "first-job-description": "Until now I work as a freelance and I do not have experience in companies,"
+    },
+    "hobbies": {
+        "first-hobbies-title": "Hobbies",
+        "first-hobbies-description": "I am passionate about sport (gym), and occasionally play soccer, to be able to exercise andsomehow socialize with others and listen to music "
+    },
+    "projects": {
+        "first-project-title": "Landing Page || Portfolio",
+        "first-project-description": "This is a presentation portfolio in which I detail my knowledge, hobbies and part of my experience in the world of programming. Thanks to the help of many teachers and my effort and dedication I can say that I have trained well in the world of web development. ",
+
+        "second-project-title": "Landing Page || Challenge 1",
+        "second-project-description": "This is a Landing Page project, a challenge made from scratch, thanks to the border page I am practicing in the world of web development. I have done it alone",
+        
+        "third-project-title": "Landing Page || Challenge 2",
+        "third-project-description": "This is a Landing Page project, a challenge made from scratch, thanks to the border page I am practicing in the world of web development. The project I have done alone",
+        
+        "fourth-project-title": "Twitter following card ui",
+        "fourth-project-description": "This is a Twitter followter clone project, a challenge made from scratch. With the same functionalities as that of the Twitter app",
+
+        "fifth-project-title": "Landing Page || Ecommerce",
+        "fifth-project-description": "This is an example of e-commerce product page, thanks to the border page that puts poets available to programmers to measure its level in the world of web development, I take some time to finish it, But here you have an example makes zero dodes ",
+
+        "sixth-project-title": "Product Preview Card Component",
+        "sixth-project-description": "This is an example of product preview card component, thanks to the border page that puts poets available to programmers to measure its level in the world of web development, I take some time to finish it, but Here you have an example makes zero dodes ",
+
+        "seventh-project-title": "Rest Countries api with color theme switcher",
+        "seventh-project-description": "This is an example of Rest Countries api with color theme switcher, thanks to the front-border page that puts poets available to programmers to measure its level in the world of web development, I take some time Finish it, but here you have an example makes zero dodes ",
+
+        "eigth-project-title": "Dictionary web app with color theme switcher",
+        "eigth-project-description": "This is an example of dictionary web app with color Theme Switcher, thanks to the front-border page that puts poets available to programmers to measure its level in the world of web development, I take some time Finish it, but here you have an example makes zero dodes ",
+
+        "nine-project-title": "News Homepage",
+        "nine-project-description": "This is a landing page cedeicada to information and news. Developed from scratch with the aim of improving my skills.",
+
+        "ten-project-title": "Sunny Landing Page",
+        "ten-project-description": "This is a landingpage developed from scratch,",
+       
+        "eleventh-project-title": "Game of three in line",
+        "eleventh-project-description": "This is a popular game called 'Tres in Raya', very useful to have a good time with your friends or to enter.",
+
+        "twelve-project-title": "Film seeker",
+        "twelve-project-description": "This is an application that allows you more recent movies or the classics you have not seen yet! ",
+
+        "thirdteen-project-title": "Calculator app",
+        "Thirdteen-project-description": "This is an application of calculator that allows youand perform simple arithmetic operations. which also consists of changes in issues increasing accessibility and a better user experience. ",
+
+        "fourteen-project-title": "Age calculator app",
+        "fourteen-project-description": "This is an example of calculator, which aims to provide the exact age of anything or person. It is an application developed from scratch.",
+
+        "fiveteen-project-title": "Summary app",
+        "fiveteen-project-description": "This is an app with functionality of finding the average/verage of several results. A challenge that has helped me to understand many things thanks to its complexity when making the design responsive.",
+
+        "sixteen-project-title": "SHORTEST URL LANDING",
+        "sixteen-project-description": "This is a landingpage developed from scratch, with the functionality of creating random",
+
+        "seventeen-project-title": "Shopping cart",
+        "seventeen-project-description": "This is a purchasing application that allows you to search and acquire products easily and quickly. With filtering options by category and price",
+
+        "eigthteen-project-title":"Technical Test",
+        "eigthteen-project-description" :"This is a technical test, conducted by a company to assess the Front-End professional level of a programmer. A library book application with the option to filter and add to a reading list, and with tab synchronization in the browser, and with a book page filter."
+   
+    }
+}

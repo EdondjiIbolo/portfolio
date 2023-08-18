@@ -1,0 +1,70 @@
+{
+    "profile":{
+        "rol":"Desarollador Front-End",
+        "description": "Mas de 4 años de experiencias en el campo de la informatica. Apasionado a las nuevas tecnologias y el aprendizaje , en especial en el desarollo web y redes informaticas.  Mi propósito es aprender y poder implementar mis conocimientos para el desarrollo y resolver problemas necesarios en el sector laboral y tambien tener la capacidad de poder trasladar mi pasión enseñando los conceotos de tecnologías web a todos aquellos que quieran iniciarse en este campo de forma actualizada."
+    },
+    "experience":{
+        "first-job-title":"Freelance",
+        "first-job-dates":"----",
+        "first-job-description":"Hasta ahora trabajo como freelance y no dispongo de experiencia en empresas"
+    },
+    "hobbies":{
+        "first-hobbies-title":"Hobbies",
+        "first-hobbies-description":"Me apasiona el deporte (GIMNASIO) , y de vez en cuando juego al futbol, para poder ejercitar y de alguna manera socializar con los demas y escuchar musica"
+    },
+    "projects":{
+        "first-project-title":"Landing page || Portfolio",
+        "first-project-description":"Este es un portfolio de presentacion en el cual detallo mis conocimientos ,hobbies y parte de mi experiencia en el mundo de la programacion. Gracias a la ayuda de muchos profesores y mi esfuerzo y dedicacion puedo decir que me he formado bien en mundo del desarollo web.",
+
+        "second-project-title":"Landing page || Challenge 1",
+        "second-project-description":"Este es un proyecto de landing page , un challenge hecho desde cero , gracias a la pagina de Frontendmentor estoy practicando en el mundo del desarollo web. el proyecto lo he realizado en solitario",
+
+        "third-project-title":"Landing page || Challenge 2",
+        "third-project-description":"Este es un proyecto de landing page , un challenge hecho desde cero , gracias a la pagina de Frontendmentor estoy practicando en el mundo del desarollo web. el proyecto lo he realizado en solitario",
+
+        "fourth-project-title":"Twitter Following Card UI",
+        "fourth-project-description":"Este es un proyecto del clon de Twitter Following , un challenge hecho desde cero. Con las mismas funcionalidades que la de la app de twitter",
+
+        "fifth-project-title":"Landing page || ecommerce",
+        "fifth-project-description":"Este es un ejemplo de e-commerce product page , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero",
+
+        "sixth-project-title":"Product preview card component",
+        "sixth-project-description":"Este es un ejemplo de Product preview card component , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero",
+
+        "seventh-project-title":"REST Countries API with color theme switcher",
+        "seventh-project-description":"Este es un ejemplo de REST Countries API with color theme switcher , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero ",
+
+        "eigth-project-title":"Dictionary web app with color theme switcher",
+        "eigth-project-description":"Este es un ejemplo de Dictionary web app with color theme switcher , gracias a la pagina Frontendmentor que pone poyectos a disposicion de programadores para medir su nivel en el mundo del desarollo web, me tomo algo de tiempo terminarlo , pero aqui teneis un ejemplo realiza dodesde cero",
+
+        "nine-project-title":"News homepage",
+        "nine-project-description":"Esta es una landing page cdedicada a la informacion y noticias. desarrollada desde cero con el objetivo de mejorar mis habilidades. ",
+
+        "ten-project-title":"Sunny Landing Page",
+        "ten-project-description":"Esta es una Landingpage desarrollada desde cero",
+        
+        "eleventh-project-title":"Juego de Tres en Raya",
+        "eleventh-project-description":"Este es un juego popular llamado 'Tres en raya', muy util para pasar un buen rato con tus amigos u paraentretenerse.",
+
+        "twelve-project-title":"Buscador de Peliculas",
+        "twelve-project-description":"Esta es una aplicación que te permite buscar y filtrar películas según su orden de publicación. Con esta app, podrás descubrir nuevas películas y organizar tu lista de reproducción de acuerdo a tus preferencias. ¡Encuentra fácilmente las películas más recientes o las clásicas que aún no has visto!",
+
+        "thirdteen-project-title":"Calculator app",
+        "thirdteen-project-description":"Esta es una aplicacion de calculadora que te permite realizar operaciones aritmeticas sencillas. que tambien consta de cambios de temas aumentando la accesibilidad y una mejor experiecia de usuario.",
+
+        "fourteen-project-title":"Age calculator app",
+        "fourteen-project-description":"Este es un ejemplo de calculadora , que tiene como objetivo proporcionar la edad exacta de cualquier cosa o persona. Es una aplicacion desarollada desde cero.",
+
+        "fiveteen-project-title":"Summary app",
+        "fiveteen-project-description":"Esta es una app con funcionalidad de hallar la media/verage de varios resultados. un reto que me ha ayudado a entender muchas cosas gracias a su complejidad a la hora de hacer responsive el diseño.",
+
+        "sixteen-project-title":"Shortest Url Landing",
+        "sixteen-project-description":"Esta es una Landingpage desarrollada desde cero, con la funcionalidad de crear links aleatorios y poder copiar al portapapeles para poder pegarlo en otro sitio.",
+
+        "seventeen-project-title":"Carrito de compras",
+        "seventeen-project-description":"Esta es una aplicación de compras que te permite buscar y adquirir productos de forma fácil y rápida. Con opciones de filtrado por categoría y precio",
+
+        "eigthteen-project-title":"Prueba Tecnica",
+        "eigthteen-project-description" :"Esta es una prueba tecnica , realizada por una empresa para medir el nivel prfesional Front-End de un programador. Una aplicacion de Biblioteca de libros con opcion a filtro y agregamiento a lista de lectura y con sincronizacion de pestañas en el navegador , y con filtro de paginas de libro."
+    }
+}
